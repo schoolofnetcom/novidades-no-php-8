@@ -22,14 +22,14 @@
 // }
 
 // PHP 8 match expression
-// $result = match ($number) {
-//   0 => 'igual a zero',
-//   1 => 'igual a um',
-//   2 => 'igual a dois',
-//   default => 'nenhum retorno',
-// };
+$result = match ($number) {
+  0 => 'igual a zero',
+  1 => 'igual a um',
+  2 => 'igual a dois',
+  default => 'nenhum retorno',
+};
 
-// var_dump($result);
+var_dump($result);
 
 
 // use (==)
@@ -43,12 +43,12 @@
 // }
 
 // use (===) strict comparison
-$result = match ('0') {
-  0 => "o que o computador entendeu!\n",
-  '0' => "O que eu espero que seja\n",
-};
+// $result = match ('0') {
+//   0 => "o que o computador entendeu!\n",
+//   '0' => "O que eu espero que seja\n",
+// };
 
-echo $result;
+// echo $result;
 
 // Documentation
 // https://laravel-news.com/match-expression-php-8
