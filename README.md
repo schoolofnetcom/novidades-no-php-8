@@ -21,7 +21,13 @@ Para conseguir acessar o terminal do container e testar o PHP 8, basta rodar o c
 docker exec -it nome_do_container bin/sh
 ```
 
-Rodando os três comandos acima, conseguiram ter o mesmo ambiente que o meu e testar todos as demais features do PHP 8 versão beta1.
+Dentro do container você tem que acessar a pasta **/var/www**, onde compartilhamos o nosso volume de testes.
+
+```
+cd /var/www
+```
+
+Rodando os comandos acima, vocês conseguirão ter o mesmo ambiente que o meu e testar todos as demais features do PHP 8 versão beta1.
 
 Espero ter ajudado vocês.
 
